@@ -1,7 +1,7 @@
 # bootstrap-4-talk
 Building a website with Bootstrap 4
 
-# Steps
+# The Steps
 
 # Step 0
 1. Install Dotnet core
@@ -30,7 +30,7 @@ Building a website with Bootstrap 4
 15. Preview.
 ---
 
-#Step 2
+# Step 2
 16. Hmmm. How about the layout and site.css from here: https://medium.com/@ashwinigupta/how-to-migrate-from-bootstrap-3-template-to-4-in-asp-net-core-application-7da01a1acf99
 17. Remove site.css.min
 18. Preview.
