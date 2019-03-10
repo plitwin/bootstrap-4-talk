@@ -6,7 +6,7 @@ Building a website with Bootstrap 4
 2. Install VS Code
 ---
 3. Mkdir dirname
-3a. Start terminal
+3.1 Start terminal
     5. dotnet new mvc
 6. Open VS Code
 7. Run starter app usig dotnet run
