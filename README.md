@@ -10,7 +10,7 @@
 
 # The Steps
 
-# Step A
+## Step A
 1. Mkdir dirname
 4. Start terminal
 5. dotnet new mvc
@@ -33,7 +33,7 @@
 15. Preview.
 ---
 
-# Step B
+## Step B
 1. Hmmm. How about getting the layout and site.css from here instead: https://medium.com/@ashwinigupta/how-to-migrate-from-bootstrap-3-template-to-4-in-asp-net-core-application-7da01a1acf99
 17. Remove site.css.min
 18. Preview.
@@ -45,7 +45,7 @@
 ---
 14. Okay. Time to remove content from Index page and start over.
 
-# Step C
+## Step C
 1. Remove everything from Index page except for title and some placeholder text.
 2. Let's look at the art work. 
 3. Not sure I like the Nav Bar. Let's do something similar but better.
