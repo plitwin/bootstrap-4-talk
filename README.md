@@ -1,9 +1,9 @@
 # bootstrap-4-talk
 Building a website with Bootstrap 4
 
-# Steps
-# Install Dotnet core
-# Install VS Code
+1. Steps
+2. Install Dotnet core
+3. Install VS Code
 3. Mkdir dirname
 4. Start terminal
 5. dotnet new mvc
