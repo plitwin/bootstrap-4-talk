@@ -1,3 +1,101 @@
 ﻿@{
     ViewBag.Title = "About";
 }
+<div class="card mb-3" id="clickHere">
+    <img class="card-img img-fluid" src="~/images/About/About_Banner.png" 
+        alt="Image of Women at a Exercise Bar">
+    <div class="card-img-overlay" style="padding-top:;">
+        <div>
+            <img src="~/images/About/About_ScriptHeader.png" class="img-fluid"
+            alt="About" style="max-width:20%;height:auto;"/>
+        </div>
+        <br />
+        <div class="d-none d-sm-block col-6">
+            <h5>THE STUDY</h5>
+        </div>            
+        <div class="d-none d-lg-block col-6">
+            You will be asked to fill out a survey either online or
+            over the telephone to see if you are suitable for the
+            study. If you qualify and are interested in participating,
+            you will be scheduled for two clinic visits.
+        </div>
+    </div>        
+</div>
+<div class="whiteBox row pt-4"> 
+    <div class="col-md-offset-1 col-md-11 text-justify" >
+    <b>On the first visit,</b> you will answer questions about your medical history and general health habits,
+    have a brief physical exam, and an exercise test to see if you can tolerate moderate exercise and
+    determine how fit you are. If you are eligible based on your test results, and would still like to participate, a
+    computer program will assign you by chance to one of the following groups:
+   </div>
+</div>
+<div class="whiteBox row pt-4 pb-3"> 
+    <div class="col-md-offset-1 col-md-5 text-justify" >
+        <div class="text-left">
+            <i class="fas fa-arrow-right greenColor"></i>
+            <span class="greenColor bolded">EXERCISE GROUP:</span> 
+            Participants in this group will
+            have a 45-minute bout of exercise on a stationary
+            bike in the Fred Hutch exercise facility.
+         </div>
+    </div>
+    <div class="col-md-offset-1 col-md-5 text-justify">
+            <i class="fas fa-arrow-right greenColor"></i>
+            <span class="greenColor bolded">RESTING CONTROL GROUP:</span>
+            Participants in this group will sit for 45 minutes.
+    </div>
+</div> 
+<div class="whiteBox row pt-4"> 
+    <div class="col-md-offset-1 col-md-11 text-justify" >
+    <b>At the second visit,</b> you will be asked to provide blood samples before and after the exercise bout or
+    resting control period. We will also ask participants if they are willing to join an optional add-on study
+    which involves a muscle biopsy before and after the exercise bout or resting control period.
+   </div>
+</div>
+<div class="d-flex flex-row justify-content-around px-5 pt-3 pb-4 blueBox" style="margin-left:-20px;margin-right:-20px;">
+    <div class="media p-2">
+      <img class="align-self-start mr-3" style="max-width:30%;height:auto;" class="img-fluid"
+       src="~/images//About/About_BenefitsCircle.png" alt="Benefits">
+      <div class="media-body">
+        <h4 class="mt-0 text-white">How will I benefit?</h5>
+        <span class="text-white">
+            All study participants will receive
+            information about their study tests
+            results, such as measures of blood
+            pressure, glucose level and tests of
+            fitness. At the end of the study, every
+            participant will receive a 30 minute long
+            session with an exercise physiologist
+            who will take them through a sample
+            aerobic + resistance training workout.
+        </span>
+      </div>
+    </div>
+    <div class="media p-2">
+     <img class="align-self-start mr-3" style="max-width:38%;height:auto;" class="img-fluid"
+            src="~/images//About/About_IncentivesCircle.png" alt="incentives">
+      <div class="media-body">
+        <!-- <h4 class="mt-0 text-white">Is there an incentive?</h5> -->
+        <span class="text-white">
+            Participants who give blood samples
+            before and after the exercise bout
+            or resting control period will receive
+            $25. Participants who give both blood
+            samples and a muscle biopsy before
+            and after the exercise bout or resting
+            control period will receive $125.
+        </span>
+      </div>
+    </div>
+</div>
+<div class="d-flex flex-row  justify-content-center px-5 text-white pt-1 pb-4 blueBox" style="margin-left:-20px;margin-right:-20px;">
+    The ACE Study is funded by the&nbsp;<a href="https://www.bcrf.org" class="text-white" target="_blank">Breast Cancer Research Foundation.</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(window).on("load", function () {
+            $("body").css("background-color","#eff4f7");
+        });
+    </script>    
+}
