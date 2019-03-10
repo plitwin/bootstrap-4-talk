@@ -65,6 +65,12 @@ using the card-img-overlay class.
 8. Now copy final version of Top of page and show how it looks.
 9. Now to bottom of page.
 10. Copy Bottom of Page text in to page. Noteworthy items include...
- * p* and m* which sets padding and margin, respectively for t=top, b=bottom, l=left, r=right. Or x=left and right and y=top and bottom.
+ * p* and m* which sets padding and margin, respectively for...
+    * t=top, 
+    * b=bottom, 
+    * l=left, 
+    * r=right. 
+    * x=left and right,
+    * y=top and bottom.
  * using a font awesome font for the downward arrow on the left side.
 11. next
