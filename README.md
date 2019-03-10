@@ -56,12 +56,14 @@ from the layout by querying the title of the current page and specifying the act
 7. Back to Index. Note complexity of art work for top of page with image of women at bar plus overlaid script image, text, and button. Cards allow us to easily create these overlays.
 using the card-img-overlay class.
 7. Copy in Version 1 of Top of page.
-8. Show what happens and site goes down in size to landscape phone mode (sm) and then to portrait mode (xs). Doesn't look very good.
-9. Explain the "d" classes let you decide when (at what breapoint) an element will be shown.
+8. Note what happens and site goes down in size to landscape phone mode (sm) and then to portrait mode (xs). Doesn't look very good.
+9. Note the "d" classes. They let you decide when (at what breapoint) an element will be shown.
     d-none means don't display starting at xs size
     d-md-block means display starting at md size
     d-sm-block means display starting at sm size
 8. Now copy final version of Top of page and show how it looks.
 9. Now to bottom of page.
-10. Copy Bottom of Page text in to page.
- * Noteworthy items include
+10. Copy Bottom of Page text in to page. Noteworthy items include...
+ * p* and m* which sets padding and margin, respectively for t=top, b=bottom, l=left, r=right. Or x=left and right and y=top and bottom.
+ * using a font awesome font for the downward arrow on the left side.
+ * 
