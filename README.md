@@ -6,7 +6,7 @@ Building a website with Bootstrap 4
 # Step 0
 1. Install Dotnet core
 2. Install VS Code
----
+
 # Step 1
 3. Mkdir dirname
 4. Start terminal
@@ -29,6 +29,8 @@ Building a website with Bootstrap 4
 14. Add @RenderSection("Scripts", required: false) just above </body>
 15. Preview.
 ---
+
+#Step 2
 16. Hmmm. How about the layout and site.css from here: https://medium.com/@ashwinigupta/how-to-migrate-from-bootstrap-3-template-to-4-in-asp-net-core-application-7da01a1acf99
 17. Remove site.css.min
 18. Preview.
