@@ -39,5 +39,20 @@ Building a website with Bootstrap 4
 14. Okay. Time to remove content from Index page and start over.
 
 # Step C
-1.
-2. 
+1. Remove everything from Index page except for title and some placeholder text.
+2. Let's look at the art work. 
+3. Not sure I like the Nav Bar. Let's do something similar but better.
+4. Copy Navbar text in (Version 1) for Layout page.
+5. Point out that there is no indication of which page is current. But you could set the active page 
+from the layout by querying the title of the current page and specifying the active class conditionally based on the value of title in the ViewBag.
+6. Copy final version Navbar.
+7. Back to Index. Explain complexity of image wiht overlaid image, text, and button. Cards allow you to do this
+using the card-img-overlay class.
+7. Copy in Version 1 of Top of page.
+8. Show what happens and site goes down in size to landscape phone mode (sm) and then to portrait mode (xs). Doesn't look very good.
+9. Explain the "d" classes let you decide when (at what breapoint) an element will be shown.
+    d-none means don't display starting at xs size
+    d-md-block means display starting at md size
+    d-sm-block means display starting at sm size
+8. Now copy final version of Top of page and show how it looks.
+9. Now to bottom of page
