@@ -20,13 +20,13 @@
 8. Open wwwroot\lib\boostrap\dist folder and delete contents
 9. Copy dist folder from downloaded bootstrap here
 10. Refresh browser to see how bad it looks
-12. Note diferences between Bootstrap 3 and Bootstrap 4
+ * Note diferences between Bootstrap 3 and Bootstrap 4
 ---
 10. Copy Bootstrap 4 starter template from 
     https://getbootstrap.com/docs/4.3/getting-started/introduction/
     and paste into Views\Shared\_layout.cshtml page
 11. Refresh browser
-12. whoops - no @RenderBody() section
+ * whoops - no @RenderBody() section
 ---
 13. Add @RenderBody() just under <body> 
 14. Add @RenderSection("Scripts", required: false) just above </body>
@@ -50,20 +50,21 @@
 2. Let's look at the art work. 
 3. Not sure I like the Nav Bar. Let's do something similar but better.
 4. Copy Navbar text in (Version 1) for Layout page from BS Talk Clipboard.
-5. Note that there is no indication of which page is current. But you could set the active page 
+ * Note that there is no indication of which page is current. But you could set the active page 
 from the layout by querying the title of the current page and specifying the active class conditionally based on the value of title in the ViewBag.
 6. Copy final version Navbar.
-7. Back to Index. Note complexity of art work for top of page with image of women at bar plus overlaid script image, text, and button. Cards allow us to easily create these overlays.
+7. Back to Index. 
+ * Note complexity of art work for top of page with image of women at bar plus overlaid script image, text, and button. Cards allow us to easily create these overlays.
 using the card-img-overlay class.
 7. Copy in Version 1 of Top of page.
-8. Note what happens and site goes down in size to landscape phone mode (sm) and then to portrait mode (xs). Doesn't look very good.
-9. Note the "d" classes. They let you decide when (at what breapoint) an element will be shown.
-    d-none means don't display starting at xs size
-    d-md-block means display starting at md size
-    d-sm-block means display starting at sm size
+ * Note what happens and site goes down in size to landscape phone mode (sm) and then to portrait mode (xs). Doesn't look very good.
+* Note the "d" classes. They let you decide when (at what breapoint) an element will be shown.
+    *  d-none means don't display starting at xs size
+    * d-md-block means display starting at md size
+    *  d-sm-block means display starting at sm size
 8. Now copy final version of Top of page and show how it looks.
 9. Now to bottom of page.
 10. Copy Bottom of Page text in to page. Noteworthy items include...
  * p* and m* which sets padding and margin, respectively for t=top, b=bottom, l=left, r=right. Or x=left and right and y=top and bottom.
  * using a font awesome font for the downward arrow on the left side.
- * 
+11. next
