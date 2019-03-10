@@ -4,7 +4,7 @@ Building a website with Bootstrap 4
 # The Steps
 
 # Step A
-3. Mkdir dirname
+1. Mkdir dirname
 4. Start terminal
 5. dotnet new mvc
 6. Open VS Code
@@ -27,7 +27,7 @@ Building a website with Bootstrap 4
 ---
 
 # Step B
-16. Hmmm. How about the layout and site.css from here: https://medium.com/@ashwinigupta/how-to-migrate-from-bootstrap-3-template-to-4-in-asp-net-core-application-7da01a1acf99
+1. Hmmm. How about the layout and site.css from here: https://medium.com/@ashwinigupta/how-to-migrate-from-bootstrap-3-template-to-4-in-asp-net-core-application-7da01a1acf99
 17. Remove site.css.min
 18. Preview.
 19. I like the footer but let's ditch the rest of the navbar for now. 
