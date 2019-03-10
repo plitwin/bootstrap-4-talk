@@ -62,4 +62,6 @@ using the card-img-overlay class.
     d-md-block means display starting at md size
     d-sm-block means display starting at sm size
 8. Now copy final version of Top of page and show how it looks.
-9. Now to bottom of page
+9. Now to bottom of page.
+10. Copy Bottom of Page text in to page.
+ * Noteworthy items include
