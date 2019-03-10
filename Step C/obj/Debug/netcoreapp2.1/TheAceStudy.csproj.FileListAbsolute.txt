@@ -64,3 +64,6 @@
 /Users/paullitwin/Documents/Source Code/Bootstrap-4-Talk/Step C/obj/Debug/netcoreapp2.1/TheAceStudy.dll
 /Users/paullitwin/Documents/Source Code/Bootstrap-4-Talk/Step C/obj/Debug/netcoreapp2.1/TheAceStudy.pdb
 /Users/paullitwin/Documents/Source Code/Bootstrap-4-Talk/Step C/obj/Debug/netcoreapp2.1/TheAceStudy.csproj.CopyComplete
+/Users/paullitwin/Documents/Source Code/bootstrap-4-talk/Step C/obj/Debug/netcoreapp2.1/Razor/Views/Home/Eligibility.g.cshtml.cs
+/Users/paullitwin/Documents/Source Code/bootstrap-4-talk/Step C/obj/Debug/netcoreapp2.1/Razor/Views/Home/SurveyPlaceholder.g.cshtml.cs
+/Users/paullitwin/Documents/Source Code/bootstrap-4-talk/Step C/obj/Debug/netcoreapp2.1/Razor/Views/Home/Team.g.cshtml.cs
