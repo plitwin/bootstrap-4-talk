@@ -1,6 +1,5 @@
-# bootstrap-4-talk
-## Building a website with Bootstrap 4
-### Paul Litwin
+# Bootstrap 4 Talk - Building a website with Bootstrap 4
+#### Paul Litwin
 
 # Folders and Files
 * Major steps use letters as in Step A, Step B, etc.
