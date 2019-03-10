@@ -38,3 +38,4 @@ Building a website with Bootstrap 4
 ---
 14. Okay. Time to remove content from Index page and start over.
 
+# Step C
