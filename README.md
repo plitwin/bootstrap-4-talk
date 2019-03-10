@@ -2,7 +2,7 @@
 Building a website with Bootstrap 4
 
 # Steps
-2. Install Dotnet core
+1. Install Dotnet core
 3. Install VS Code
 3. Mkdir dirname
 4. Start terminal
