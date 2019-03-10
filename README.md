@@ -25,3 +25,6 @@ Building a website with Bootstrap 4
 13. Add @RenderBody() just under <body> 
 14. Add @RenderSection("Scripts", required: false) just above </body>
 15. Preview.
+---
+16. Hmmm. How about the layout and site.css from here: https://medium.com/@ashwinigupta/how-to-migrate-from-bootstrap-3-template-to-4-in-asp-net-core-application-7da01a1acf99
+17. Remove site.css.min
