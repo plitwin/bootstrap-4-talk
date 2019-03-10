@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Survey Placeholder";
+}
+<div class="col-md-6 alert alert-warning" role="alert">
+    The ACE Study has not yet begun enrolling participants.
+    If you would like to be notified when the study opens, please
+    <a href="contact">contact us</a> via email or telephone and we will notify
+    you as soon as enrollment opens.
+</div>
+
+@section Scripts {
+    <script>
+        $(window).on("load", function () {
+            $("body").css("background-color","white");
+        });
+    </script>    
+}
