@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; font-size: large;}
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Building a Website using Bootstrap 4
+## with Dotnet Core & VS Code
+### Paul Litwin
+### Seattle Web Application Developers Meetup
+---
+
+# Agenda
+
+1. Introduction
+2. Deep-dive
+3. ...
+---
+# Slide
+
+- bullet 1
+--
+
+- bullet 2
+???
+note 1
+note 2
+---
+
+# Javascript
+```javascript
+function add(a, b)
+  return a + b
+end
+```
+
+---
+# C Sharp
+```cs
+function add(a, b)
+  return a + b
+end
+```
+---
+# Html
+```
+<div class="container-fluid body-content ml-0 mr-0 pl-3 pr-3" style="margin-top:-30px;" id="containerMain">
+    <div class="text-center">
+    <img src="~/images/Home/AceLogo.png" class="img-fluid" alt="ACE Logo" style="max-width:20%; height: auto;" />
+    </div>
+    <hr style="border-color:black;margin-bottom:0;">
+    <nav class="navbar navbar-expand-lg navbar-light text-uppercase font-weight-bold">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+*   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+                <a class='nav-item nav-link mr-2' href='~/home/index'>HOME</a>
+                <a class='nav-item nav-link mr-2' href='~/home/about'>ABOUT</a>
+                <a class='nav-item nav-link mr-2' href='~/home/eligibility'>ELIGIBILITY</a>
+                <a class='nav-item nav-link mr-2' href='~/home/team'>MEET THE TEAM</a>
+                <a class='nav-item nav-link     ' href='~/home/contact'>CONTACT US</a>
+         </div>
+    </<div>
+    </nav>       
+    <hr style="border-color:black;margin-top:0;">  
+@RenderBody()
+</div>
+```
+---
+# CSS
+```
+body .bodyWhite {
+    background:white !important;
+}
+
+div .greyBox
+{
+    background-color: #dee6e9;
+    padding-left:50px;
+    padding-right:0;
+}
+
+div .whiteBox
+{
+    background-color:#fff;
+}
+div .greenBox
+{
+    background-color: #46d5c4;
+}
+
+div .blueBox
+{
+    background-color: #29b6b9;
+}
+```
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    var slideshow = remark.create({
+        highlightLanguage: 'javascript',
+        highlightStyle: 'monokai',
+        highlightLines: 'true',
+        // Set the slideshow display ratio
+        // Default: '4:3'
+        // Alternatives: '16:9', ...
+        ratio: '4:3',
+
+        // Navigation options
+        navigation: {
+            // Enable or disable navigating using scroll
+            // Default: true
+            // Alternatives: false
+            scroll: false,
+
+            // Enable or disable navigation using touch
+            // Default: true
+            // Alternatives: false
+            touch: true,
+
+            // Enable or disable navigation using click
+            // Default: false
+            // Alternatives: true
+            click: true
+        },
+
+        // Customize slide number label, either using a format string..
+        slideNumberFormat: 'Slide %current% of %total%',
+
+        // Enable or disable counting of incremental slides in the slide counting
+        countIncrementalSlides: false   
+    });
+    </script>
+  </body>
+</html>
