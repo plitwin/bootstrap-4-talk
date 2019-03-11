@@ -350,10 +350,10 @@ div .blueBox
                 alt="About" style="max-width:20%;height:auto;"/>
             </div>
             <br />
-            <div class="d-none d-sm-block col-6">
+            <div class="col-6">
                 <h5>THE STUDY</h5>
             </div>            
-            <div class="d-none d-lg-block col-6">
+            <div class="col-6">
                 You will be asked to fill out a survey either online or
                 over the telephone to see if you are suitable for the
                 study. If you qualify and are interested in participating,
@@ -370,7 +370,7 @@ div .blueBox
    </div>
 </div>
 <div class="whiteBox row pt-4 pb-3"> 
-    <div class="col-md-offset-1 col-md-5 text-justify" >
+    <div class="col-offset-1 text-justify" >
         <div class="text-left">
             <i class="fas fa-arrow-right greenColor"></i>
             <span class="greenColor bolded">EXERCISE GROUP:</span> 
@@ -379,7 +379,7 @@ div .blueBox
             bike in the Fred Hutch exercise facility.
          </div>
     </div>
-    <div class="col-md-offset-1 col-md-5 text-justify">
+    <div class="col-offset-1 text-justify">
             <i class="fas fa-arrow-right greenColor"></i>
             <span class="greenColor bolded">RESTING CONTROL GROUP:</span>
             Participants in this group will sit for 45 minutes.
