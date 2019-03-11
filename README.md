@@ -78,7 +78,7 @@ using the card-img-overlay class.
     * y=top and bottom.
  * using a font-awesome font for the downward arrow on the left side.
  * trick to create a horizontal green line: 
- ** div with style="height:100%;border-right-style:solid;border-width:4px;border-color:#48D8C1"
+    * div with style="height:100%;border-right-style:solid;border-width:4px;border-color:#48D8C1"
 15. View in browser.
 11. We are still missing some coloring of things. 
 12. Copy in additional classes to Layout file.
