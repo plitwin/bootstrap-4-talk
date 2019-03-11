@@ -97,5 +97,20 @@ using the card-img-overlay class.
 * d classes used for EXERCISE & CONTROL groups divs. They now break at md size.
 * d classes used in flexbox (class="d-flex flex-column flex-sm-row") containing the media objects
 * d classes also used in the flexbox used to display funding agency.
-
+5. Copy in the final Eligbility page and view in browser.
+* Nothing terribly new on this page.
+6. Copy in initial version of Team page.
+7. Perfect use for media objects.
+8. Note square photo. A rounded photo would look better.
+9. Copy in final version of Team page.
+10. Note use of rounded-circle class to make square photos into circles.
+* Circles will not display nicely unless photo is square. Otherwise it becomes an ugly oval.
+11. Copy in initial version of Contact page and view in browser.
+12. Again we use a media object to display an image alongside text.
+13. Reduce browser to sm size -- image gets pretty small.
+14. Copy in final version. 
+* This version uses the d classes to move image above text when in sm size.
+15. And that is it.
+6. Copy in Contact page and view in browser.
+* Notice
 
