@@ -106,11 +106,8 @@ using the card-img-overlay class.
 10. Note use of rounded-circle class to make square photos into circles.
 * Circles will not display nicely unless photo is square. Otherwise it becomes an ugly oval.
 11. Copy in initial version of Contact page and view in browser.
-12. Again we use a media object to display an image alongside text.
-13. Reduce browser to sm size -- image gets pretty small.
-14. Copy in final version. 
+* Again we use a media object to display an image alongside text.
+* Reduce browser to sm size -- image gets pretty small.
+14. Copy in final version and view in browser.
 * This version uses the d classes to move image above text when in sm size.
 15. And that is it.
-6. Copy in Contact page and view in browser.
-* Notice
-
