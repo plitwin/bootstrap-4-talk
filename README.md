@@ -53,6 +53,7 @@
  * Note that there is no indication of which page is current. But you could set the active page 
 from the layout by querying the title of the current page and specifying the active class conditionally based on the value of title in the ViewBag.
 6. Copy final version Navbar.
+7. Preview
 7. Back to Index. 
  * Note complexity of art work for top of page with image of women at bar plus overlaid script image, text, and button. Cards allow us to easily create these overlays.
 using the card-img-overlay class.
@@ -62,15 +63,21 @@ using the card-img-overlay class.
     *  d-none means don't display starting at xs size
     * d-md-block means display starting at md size
     *  d-sm-block means display starting at sm size
+7. Preview
 8. Now copy final version of Top of page and show how it looks.
+8. Preview.
 9. Now to bottom of page.
 10. Copy Bottom of Page text in to page. Noteworthy items include...
  * p* and m* which sets padding and margin, respectively. Where * can be...
+    * (empty)= all sides,
     * t=top, 
     * b=bottom, 
     * l=left, 
     * r=right. 
     * x=left and right,
     * y=top and bottom.
- * using a font awesome font for the downward arrow on the left side.
-11. next
+ * using a font-awesome font for the downward arrow on the left side.
+10. Preview.
+11. We are still missing some coloring of things. 
+12. Copy in additional classes to Layout file.
+13. Preview. 
