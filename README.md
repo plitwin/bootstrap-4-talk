@@ -30,18 +30,18 @@
 ---
 13. Add @RenderBody() just under <body> 
 14. Add @RenderSection("Scripts", required: false) just above </body>
-15. Preview.
+15. View in browser.
 ---
 
 ## Step B
 1. Hmmm. How about getting the layout and site.css from here instead: https://medium.com/@ashwinigupta/how-to-migrate-from-bootstrap-3-template-to-4-in-asp-net-core-application-7da01a1acf99
 17. Remove site.css.min
-18. Preview.
+15. View in browser.
 19. I like the footer but let's ditch the navbar for now since it's not quite what we want.
 10. Change color in site.css fro footer to background-color:#48D8C1;
 11. Add  text-center to div tag
 12. Add text-white to span and add text "&copy Fred Hutchinson Cancer Research Center @DateTime.Now.Year. All rights reserved."
-13. Preview.
+15. View in browser.
 ---
 14. Okay. Time to remove content from Index page and start over.
 
@@ -53,7 +53,7 @@
  * Note that there is no indication of which page is current. But you could set the active page 
 from the layout by querying the title of the current page and specifying the active class conditionally based on the value of title in the ViewBag.
 6. Copy final version Navbar.
-7. Preview
+15. View in browser.
 7. Back to Index. 
  * Note complexity of art work for top of page with image of women at bar plus overlaid script image, text, and button. Cards allow us to easily create these overlays.
 using the card-img-overlay class.
@@ -63,9 +63,9 @@ using the card-img-overlay class.
     *  d-none means don't display starting at xs size
     * d-md-block means display starting at md size
     *  d-sm-block means display starting at sm size
-7. Preview
+15. View in browser.
 8. Now copy final version of Top of page and show how it looks.
-8. Preview.
+15. View in browser.
 9. Now to bottom of page.
 10. Copy Bottom of Page text in to page. Noteworthy items include...
  * p* and m* which sets padding and margin, respectively. Where * can be...
@@ -77,7 +77,16 @@ using the card-img-overlay class.
     * x=left and right,
     * y=top and bottom.
  * using a font-awesome font for the downward arrow on the left side.
-10. Preview.
+15. View in browser.
 11. We are still missing some coloring of things. 
 12. Copy in additional classes to Layout file.
-13. Preview. 
+15. View in browser.
+
+## Step D
+1. Let's turn to the About page. 
+2. Copy in initial version and view in browser.
+3. This page has uses a flexbox at the bottom that contains a copy of media objects.
+3. Looks good but there are a number of issues that show up when viewed in a smaller browser.
+* This page has some of the same overlay issues that the Index page.
+* Also some columns get too squished. Note the the middle set of EXERCISE & CONTROL groups.
+* Also note the flexbox also gets too squished. We can fix that of course.
