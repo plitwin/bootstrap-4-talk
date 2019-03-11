@@ -9,11 +9,15 @@
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
       body { font-family: 'Droid Serif'; font-size: large;}
-      h1, h2, h3 {
+      h1, h2, h3, h4, h5 {
         font-family: 'Yanone Kaffeesatz';
         font-weight: normal;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .red-text {color:red;}
+      .blue-text {color: blue;}
+      .emp-text {font-style: italic;font-weight:bold;color:blue;}
+      .hl-text {background-color: yellow;}
     </style>
   </head>
   <body>
@@ -26,22 +30,72 @@ class: center, middle
 ### Paul Litwin
 ### Seattle Web Application Developers Meetup
 ---
-
-# Agenda
-
-1. Introduction
-2. Deep-dive
-3. ...
----
-# Slide
-
-- bullet 1
+# The Problem
+* Needed to create a recruitment site for a clinical trial at Fred Hutch called the ACE Study
 --
 
-- bullet 2
-???
-note 1
-note 2
+* Used a graphic artist who came up with a basic design after working with study staff
+--
+
+* End product of graphic artist’s work was a PDF layout plus images I asked her to create from the layout
+
+---
+
+# The Goal
+
+* <h3>Create a responsive website from artist’s design work</h3>
+.red-text[red text]
+
+---
+# Bootstrap
+* Two major versions in use today
+    * Bootstrap 3 (2013)
+    * Bootstrap 4 (2017)
+
+---
+
+# Major Changes in Bootstrap 4
+--
+
+* Bootstrap 4 is .emp-text[responsive] by design
+--
+
+* All layout done with .emp-text[flexbox] instead of floats
+--
+
+* Panel, thumbnail, and well classes replaced by .emp-text[card] class
+--
+
+* Grid system classes
+    * col-xs, col-sm, col-md, col-lg -> 
+.emp-text[col, col-sm, col-md, col-lg, and col-xl]
+--
+
+* Lots of changes to class names
+    * img-responsive -> 
+.emp-text[img-fluid]
+    * radio, checkbox -> 
+.emp-text[form-check]
+    * input-sm, input_lg -> 
+.emp-text[form-control-sm, form-control-lg]
+--
+
+* default color  -> 
+.emp-text[secondary]
+--
+
+* .emp-text[dropped] form-group and form-horizontal
+--
+
+* many more…
+
+---
+.footnote[.red.bold[*]
+Important footnote]
+
+.footnote[
+.red.bold[
+*]Important footnote]
 ---
 
 # Javascript
