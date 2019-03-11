@@ -85,8 +85,15 @@ using the card-img-overlay class.
 ## Step D
 1. Let's turn to the About page. 
 2. Copy in initial version and view in browser.
-3. This page has uses a flexbox at the bottom that contains a copy of media objects.
+3. This page uses a few new Bootstrap 4 classes...
+* It uses a flexbox at the bottom that contains a couple of media objects arranged side by side.
 3. Looks good but there are a number of issues that show up when viewed in a smaller browser.
 * This page has some of the same overlay issues that the Index page.
 * Also some columns get too squished. Note the the middle set of EXERCISE & CONTROL groups.
 * Also note the flexbox also gets too squished. We can fix that of course.
+4. Copy in the final version of the About page and view in browser. Fixes...
+* d classes used for EXERCISE & CONTROL groups divs. They now break at md size.
+* d classes used in flexbox (class="d-flex flex-column flex-sm-row") containing the media objects
+* d classes also used in the flexbox used to display funding agency.
+
+
