@@ -17,6 +17,11 @@
     background-color:#48D8C1;
 }
 
+/* active navbar */
+.active {
+    background:#48D8C1; 
+ }
+
 body {
     background:#dee6e9; 
 }

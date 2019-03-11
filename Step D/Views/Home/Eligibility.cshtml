@@ -1,3 +1,101 @@
 ﻿@{
     ViewBag.Title = "Eligibility";
 }
+<div class="whiteBox row pt-4"> 
+    <div class="col-md-12 pl-3">
+    <img src="~/images/Eligibility/Eligibility_Script.png" 
+        class="img-fluid"  alt="Eligibility"  style="max-width:20%;height:auto;"/>
+    </div>
+</div>
+<div class="media p-2 whiteBox" style="margin-left:-20px;margin-right:-20px;">
+    <div class="media-body px-3">
+        <h6>INCLUSION CRITERIA</h6>
+        <div class="blueColor font-italic">You must meet <b><u>all</u></b> of the following...</div>
+        <ul>
+            <li>Female</li>
+            <li>Resident in greater Seattle metropolitan area (King Country),
+                Pierce or Snohomish Counties</li>
+            <li>Healthy</li>
+            <li>Able to perform all study requirements, including attendance
+                at clinic visits and capable of responding to questionnaires and
+                clinic and exercise facility instructions in English</li>
+            <li>Willing to be assigned by chance by a computer program to
+                either the exercise or control group</li>
+            <li>Capable of providing informed consent</li>
+        </ul>
+    </div>
+    <div class="media-body">
+        <a href="@ViewBag.SurveyUrl">
+            <img style="width:50%;" href="@ViewBag.SurvyeUrl" class="img-fluid"
+                src="~/images/Eligibility/ThinkYouAreEligible_Circle.png" alt="Think you are eligible?">
+        </a>
+    </div>
+</div>
+
+<div class="mt-2" >
+    <div class="" style="border-bottom-style:solid; border-width:5px;border-color:#46d5c4"></div>
+</div>
+
+<div class="mt-2 ml-2">
+    <h6>EXCLUSION CRITERIA</h6>
+    <div class="blueColor font-italic">You <b><u>cannot</u></b> participate if <b><u>any</u></b> of the following are true...</div>
+</div>
+<div class="row mt-2 ml-2">
+    <div class="col-md-6">
+        <ul>
+            <li>Pregnant in past 3 months</li>
+            <li>Currently breast feeding</li>
+            <li>Current use of any tobacco products including smoking, vaping, chew, nicotine patches</li>
+            <li>History of diabetes mellitus or high blood sugar that could indicate diabetes</li>
+            <li>Taking any medications to treat high blood sugar such as metformin</li>
+            <li>History of any cancer (other than non-melanoma skin cancer)</li>
+            <li>Drinking more than 2 alcoholic drinks/day</li>
+            <li>Ever told by a doctor that you should NOT exercise</li>
+            <li>Findings on the physical exam that could make exercise unsafe</li>
+            <li>History of heart attack, stroke, heart failure, heart valve disease, heart rhythm problems, serious lung disease, blood clot in the lungs, uncontrolled high blood pressure</li>
+            <li>Frequent marijuana use (more than once per month)</li>
+            <li>Alcohol or drug dependence or abuse, or uncontrolled mental illness</li>                  
+        </ul>                       
+    </div>
+
+    <div class="col-md-6">
+        <ul>
+            <li class="blueColor">In Premenopausal women:</li>
+                <ul>
+                    <li>irregular periods for the past 6 months</li>
+                    <li>use of oral contraceptives for the previous 3 months</li>
+                    <li>use of hormone implants or IUD with hormones (e.g. Mirena) in the previous year</li>
+                    <li>use of estrogens, progesterone, testosterone or other androgens for the previous 3 months</li>
+                </ul>   
+            <li class="blueColor">In Postmenopausal women:</li>
+                <ul>
+                    <li>use of estrogen, progesterone, testosterone, or other androgens in the previous 3 months, of any type including oral, creams, vaginal creams or inserts, patches, or implants</li>
+                </ul>             
+        </ul>
+    </div>
+
+</div>
+
+
+<div class="mt-2" >
+    <div class="" style="border-bottom-style:solid; border-width:5px;border-color:#46d5c4"></div>
+</div>
+
+<div class="mt-2 ml-2 mb-5"> 
+    <h6>EXCLUSIONS FOR THE MUSCLE-BIOPSY SUB-STUDY</h6>
+    <div class="blueColor font-italic">You <b><u>cannot participate in the sub-study if any</u></b> of the following are true...</div>
+        <ul>
+            <li>History of clotting disorders</li>
+            <li>Unable or unwilling to stop aspirin, ibuprofen, naproxen, or similar drugs for 48 hours before and after the procedure</li>
+            <li>Allergy to anesthetics including local anesthetics</li>
+        </ul>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(window).on("load", function () {
+            $("body").css("background-color","white");
+        });
+    </script>    
+}

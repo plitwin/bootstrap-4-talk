@@ -336,3 +336,429 @@ div .blueBox
 {
     color: #54bceb
 }
+
+>>>ABOUT.cshtml: Initial Verison<<<
+@{
+    ViewBag.Title = "About";
+}
+    <div class="card mb-3" id="clickHere">
+        <img class="card-img img-fluid" src="~/images/About/About_Banner.png" 
+            alt="Image of Women at a Exercise Bar">
+        <div class="card-img-overlay" style="padding-top:;">
+            <div>
+                <img src="~/images/About/About_ScriptHeader.png" class="img-fluid"
+                alt="About" style="max-width:20%;height:auto;"/>
+            </div>
+            <br />
+            <div class="d-none d-sm-block col-6">
+                <h5>THE STUDY</h5>
+            </div>            
+            <div class="d-none d-lg-block col-6">
+                You will be asked to fill out a survey either online or
+                over the telephone to see if you are suitable for the
+                study. If you qualify and are interested in participating,
+                you will be scheduled for two clinic visits.
+            </div>
+        </div>        
+    </div>
+<div class="whiteBox row pt-4"> 
+    <div class="col-md-offset-1 col-md-11 text-justify" >
+    <b>On the first visit,</b> you will answer questions about your medical history and general health habits,
+    have a brief physical exam, and an exercise test to see if you can tolerate moderate exercise and
+    determine how fit you are. If you are eligible based on your test results, and would still like to participate, a
+    computer program will assign you by chance to one of the following groups:
+   </div>
+</div>
+<div class="whiteBox row pt-4 pb-3"> 
+    <div class="col-md-offset-1 col-md-5 text-justify" >
+        <div class="text-left">
+            <i class="fas fa-arrow-right greenColor"></i>
+            <span class="greenColor bolded">EXERCISE GROUP:</span> 
+            Participants in this group will
+            have a 45-minute bout of exercise on a stationary
+            bike in the Fred Hutch exercise facility.
+         </div>
+    </div>
+    <div class="col-md-offset-1 col-md-5 text-justify">
+            <i class="fas fa-arrow-right greenColor"></i>
+            <span class="greenColor bolded">RESTING CONTROL GROUP:</span>
+            Participants in this group will sit for 45 minutes.
+    </div>
+</div> 
+<div class="whiteBox row pt-4"> 
+    <div class="col-md-offset-1 col-md-11 text-justify" >
+    <b>At the second visit,</b> you will be asked to provide blood samples before and after the exercise bout or
+    resting control period. We will also ask participants if they are willing to join an optional add-on study
+    which involves a muscle biopsy before and after the exercise bout or resting control period.
+   </div>
+</div>
+<div class="d-flex flex-row px-5 pt-3 pb-4 blueBox" style="margin-left:-20px;margin-right:-20px;">
+    <div class="media p-2">
+      <img class="align-self-start mr-3" style="max-width:30%;height:auto;" class="img-fluid"
+       src="~/images/About/About_BenefitsCircle.png" alt="Benefits">
+      <div class="media-body">
+        <h4 class="mt-0 text-white">How will I benefit?</h5>
+        <span class="text-white">
+            All study participants will receive
+            information about their study tests
+            results, such as measures of blood
+            pressure, glucose level and tests of
+            fitness. At the end of the study, every
+            participant will receive a 30 minute long
+            session with an exercise physiologist
+            who will take them through a sample
+            aerobic + resistance training workout.
+        </span>
+      </div>
+    </div>
+    <div class="media p-2">
+     <img class="align-self-start mr-3" style="max-width:38%;height:auto;" class="img-fluid"
+            src="~/images/About/About_IncentivesCircle.png" alt="incentives">
+      <div class="media-body">
+        <span class="text-white">
+            Participants who give blood samples
+            before and after the exercise bout
+            or resting control period will receive
+            $25. Participants who give both blood
+            samples and a muscle biopsy before
+            and after the exercise bout or resting
+            control period will receive $125.
+        </span>
+      </div>
+    </div>
+</div>
+<div class="d-flex flex-row justify-content-center px-5 text-white pt-1 pb-4 blueBox" style="margin-left:-20px;margin-right:-20px;">
+    The ACE Study is funded by the&nbsp;<a href="https://www.bcrf.org" class="text-white" target="_blank">Breast Cancer Research Foundation.</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(window).on("load", function () {
+            $("body").css("background-color","#eff4f7");
+        });
+    </script>    
+}
+
+>>>ABOUT.cshtml: Final Verison<<<
+@{
+    ViewBag.Title = "About";
+}
+    <div class="card mb-3" id="clickHere">
+        <img class="card-img img-fluid" src="~/images/About/About_Banner.png" 
+            alt="Image of Women at a Exercise Bar">
+        <div class="card-img-overlay" style="padding-top:;">
+            <div>
+                <img src="~/images/About/About_ScriptHeader.png" class="img-fluid"
+                alt="About" style="max-width:20%;height:auto;"/>
+            </div>
+            <br />
+            <div class="d-none d-sm-block col-6">
+                <h5>THE STUDY</h5>
+            </div>            
+            <div class="d-none d-lg-block col-6">
+                You will be asked to fill out a survey either online or
+                over the telephone to see if you are suitable for the
+                study. If you qualify and are interested in participating,
+                you will be scheduled for two clinic visits.
+            </div>
+        </div>        
+    </div>
+<div class="whiteBox row pt-4"> 
+    <div class="col-md-offset-1 col-md-11 text-justify" >
+    <b>On the first visit,</b> you will answer questions about your medical history and general health habits,
+    have a brief physical exam, and an exercise test to see if you can tolerate moderate exercise and
+    determine how fit you are. If you are eligible based on your test results, and would still like to participate, a
+    computer program will assign you by chance to one of the following groups:
+   </div>
+</div>
+<div class="whiteBox row pt-4 pb-3"> 
+    <div class="col-md-offset-1 col-md-5 text-justify" >
+        <div class="text-left">
+            <i class="fas fa-arrow-right greenColor"></i>
+            <span class="greenColor bolded">EXERCISE GROUP:</span> 
+            Participants in this group will
+            have a 45-minute bout of exercise on a stationary
+            bike in the Fred Hutch exercise facility.
+         </div>
+    </div>
+    <div class="col-md-offset-1 col-md-5 text-justify">
+            <i class="fas fa-arrow-right greenColor"></i>
+            <span class="greenColor bolded">RESTING CONTROL GROUP:</span>
+            Participants in this group will sit for 45 minutes.
+    </div>
+</div> 
+<div class="whiteBox row pt-4"> 
+    <div class="col-md-offset-1 col-md-11 text-justify" >
+    <b>At the second visit,</b> you will be asked to provide blood samples before and after the exercise bout or
+    resting control period. We will also ask participants if they are willing to join an optional add-on study
+    which involves a muscle biopsy before and after the exercise bout or resting control period.
+   </div>
+</div>
+<div class="d-flex flex-column flex-sm-row justify-content-around px-5 pt-3 pb-4 blueBox" style="margin-left:-20px;margin-right:-20px;">
+    <div class="media p-2">
+      <img class="align-self-start mr-3" style="max-width:30%;height:auto;" class="img-fluid"
+       src="~/images/About/About_BenefitsCircle.png" alt="Benefits">
+      <div class="media-body">
+        <h4 class="mt-0 text-white">How will I benefit?</h5>
+        <span class="text-white">
+            All study participants will receive
+            information about their study tests
+            results, such as measures of blood
+            pressure, glucose level and tests of
+            fitness. At the end of the study, every
+            participant will receive a 30 minute long
+            session with an exercise physiologist
+            who will take them through a sample
+            aerobic + resistance training workout.
+        </span>
+      </div>
+    </div>
+    <div class="media p-2">
+     <img class="align-self-start mr-3" style="max-width:38%;height:auto;" class="img-fluid"
+            src="~/images/About/About_IncentivesCircle.png" alt="incentives">
+      <div class="media-body">
+        <span class="text-white">
+            Participants who give blood samples
+            before and after the exercise bout
+            or resting control period will receive
+            $25. Participants who give both blood
+            samples and a muscle biopsy before
+            and after the exercise bout or resting
+            control period will receive $125.
+        </span>
+      </div>
+    </div>
+</div>
+<div class="d-flex flex-column flex-sm-row justify-content-center px-5 text-white pt-1 pb-4 blueBox" style="margin-left:-20px;margin-right:-20px;">
+    The ACE Study is funded by the&nbsp;<a href="https://www.bcrf.org" class="text-white" target="_blank">Breast Cancer Research Foundation.</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(window).on("load", function () {
+            $("body").css("background-color","#eff4f7");
+        });
+    </script>    
+}
+
+>>>ELIGIBILITY.cshtml: Final Verison<<<
+@{
+    ViewBag.Title = "Eligibility";
+}
+<div class="whiteBox row pt-4"> 
+    <div class="col-md-12 pl-3">
+    <img src="~/images/Eligibility/Eligibility_Script.png" 
+        class="img-fluid"  alt="Eligibility"  style="max-width:20%;height:auto;"/>
+    </div>
+</div>
+<div class="media p-2 whiteBox" style="margin-left:-20px;margin-right:-20px;">
+    <div class="media-body px-3">
+        <h6>INCLUSION CRITERIA</h6>
+        <div class="blueColor font-italic">You must meet <b><u>all</u></b> of the following...</div>
+        <ul>
+            <li>Female</li>
+            <li>Resident in greater Seattle metropolitan area (King Country),
+                Pierce or Snohomish Counties</li>
+            <li>Healthy</li>
+            <li>Able to perform all study requirements, including attendance
+                at clinic visits and capable of responding to questionnaires and
+                clinic and exercise facility instructions in English</li>
+            <li>Willing to be assigned by chance by a computer program to
+                either the exercise or control group</li>
+            <li>Capable of providing informed consent</li>
+        </ul>
+    </div>
+    <div class="media-body">
+        <a href="@ViewBag.SurveyUrl">
+            <img style="width:50%;" href="@ViewBag.SurvyeUrl" class="img-fluid"
+                src="~/images/Eligibility/ThinkYouAreEligible_Circle.png" alt="Think you are eligible?">
+        </a>
+    </div>
+</div>
+
+<div class="mt-2" >
+    <div class="" style="border-bottom-style:solid; border-width:5px;border-color:#46d5c4"></div>
+</div>
+
+<div class="mt-2 ml-2">
+    <h6>EXCLUSION CRITERIA</h6>
+    <div class="blueColor font-italic">You <b><u>cannot</u></b> participate if <b><u>any</u></b> of the following are true...</div>
+</div>
+<div class="row mt-2 ml-2">
+    <div class="col-md-6">
+        <ul>
+            <li>Pregnant in past 3 months</li>
+            <li>Currently breast feeding</li>
+            <li>Current use of any tobacco products including smoking, vaping, chew, nicotine patches</li>
+            <li>History of diabetes mellitus or high blood sugar that could indicate diabetes</li>
+            <li>Taking any medications to treat high blood sugar such as metformin</li>
+            <li>History of any cancer (other than non-melanoma skin cancer)</li>
+            <li>Drinking more than 2 alcoholic drinks/day</li>
+            <li>Ever told by a doctor that you should NOT exercise</li>
+            <li>Findings on the physical exam that could make exercise unsafe</li>
+            <li>History of heart attack, stroke, heart failure, heart valve disease, heart rhythm problems, serious lung disease, blood clot in the lungs, uncontrolled high blood pressure</li>
+            <li>Frequent marijuana use (more than once per month)</li>
+            <li>Alcohol or drug dependence or abuse, or uncontrolled mental illness</li>                  
+        </ul>                       
+    </div>
+
+    <div class="col-md-6">
+        <ul>
+            <li class="blueColor">In Premenopausal women:</li>
+                <ul>
+                    <li>irregular periods for the past 6 months</li>
+                    <li>use of oral contraceptives for the previous 3 months</li>
+                    <li>use of hormone implants or IUD with hormones (e.g. Mirena) in the previous year</li>
+                    <li>use of estrogens, progesterone, testosterone or other androgens for the previous 3 months</li>
+                </ul>   
+            <li class="blueColor">In Postmenopausal women:</li>
+                <ul>
+                    <li>use of estrogen, progesterone, testosterone, or other androgens in the previous 3 months, of any type including oral, creams, vaginal creams or inserts, patches, or implants</li>
+                </ul>             
+        </ul>
+    </div>
+
+</div>
+
+
+<div class="mt-2" >
+    <div class="" style="border-bottom-style:solid; border-width:5px;border-color:#46d5c4"></div>
+</div>
+
+<div class="mt-2 ml-2 mb-5"> 
+    <h6>EXCLUSIONS FOR THE MUSCLE-BIOPSY SUB-STUDY</h6>
+    <div class="blueColor font-italic">You <b><u>cannot participate in the sub-study if any</u></b> of the following are true...</div>
+        <ul>
+            <li>History of clotting disorders</li>
+            <li>Unable or unwilling to stop aspirin, ibuprofen, naproxen, or similar drugs for 48 hours before and after the procedure</li>
+            <li>Allergy to anesthetics including local anesthetics</li>
+        </ul>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(window).on("load", function () {
+            $("body").css("background-color","white");
+        });
+    </script>    
+}
+
+>>>TEAM.cshtml: Final Verison<<<
+@{
+    ViewBag.Title = "Team";
+}
+<div class="row pt-2 ml-2"> 
+    <div class="col-md-12 pl-3">
+    <img src="~/images/Team/MeetTheTeam_Script.png" 
+        class="img-fluid"  alt="Meet the Team"  style="max-width:30%;height:auto;"/>
+    </div>
+</div>
+
+<div class="col-md-8 ml-2 mt-4">
+    <ul class="list-unstyled">
+      <li class="media">
+        <img style="width:20%" class="rounded-circle img-fluid"
+                src="~/images/team/AMcTiernan.jpg" alt="Anne McTiernan photo">
+        <div class="media-body pl-3">
+            <div>
+                <span class="font-weight-bold">Dr. Anne McTiernan, MD PhD</span>
+            <br />
+                <span class="font-italic">Principal Investigator of the ACE study</span>
+            </div>            
+            <p class="mt-3">
+                Dr. McTiernan’s research focuses on identifying ways to prevent new or recurrent 
+                cancer with a particular focus on weight control, physical activity, and 
+                chemoprevention. She has led several NCI-funded
+                grants to test weight loss and exercise effects on biomarkers of breast cancer, 
+                colon cancer, and other cancers and diseases. She currently is funded by the 
+                Breast Cancer Research Foundation to study long-term effects of weight loss 
+                and exercise on breast cancer biomarkers.
+            </p>
+            <p class="mt-3">
+                Dr. McTiernan is an elected Fellow in the American College of Sports Medicine, 
+                the Obesity Society, and the American College of Epidemiology. She has served 
+                on national and international health advisory boards and working groups including 
+                the International Agency for Research on Cancer, the American Cancer Society, the 
+                U.S. Department of Health and Human Services 2008 and 2018 Physical Activity Guidelines 
+                Advisory Committees, the World Cancer Research Fund International, and the Komen 
+                for the Cure Scientific Advisory Council.
+            </p>
+        </div>
+      </li>
+      <li class="media mt-5">
+        <img style="width:20%" class="rounded-circle img-fluid"
+                src="~/images/team/cduggan.png" alt="Catherine Duggan photo">
+        <div class="media-body pl-3">
+            <div>
+                <span class="font-weight-bold">Dr. Catherine Duggan, PhD</span>
+            <br />
+                <span class="font-italic">Co-investigator of the ACE study</span>
+            </div>            
+            <p class="mt-3">
+                Dr. Duggan is a Co-Investigator and an Epidemiologist. 
+                She has extensive experience in the design and conduct of randomized controlled trials, 
+                and cancer prevention research.
+            </p>
+        </div>
+      </li>
+      <li class="media mt-5">
+        <img style="width:20%" class="rounded-circle img-fluid"
+                src="~/images/team/mvandoren.jpg" alt="Matthew VanDoren">
+        <div class="media-body pl-3">
+            <div>
+                <span class="font-weight-bold">Matthew VanDoren</span>
+            <br />
+                <span class="font-italic">Exercise Physiologist at the Prevention Center</span>
+            </div>            
+            <p class="mt-3">
+                Matthew VanDoren, Exercise Research Center (ERC) Manager, oversees and coordinates daily operations, research protocols, and administrative activities in support of the ERC.
+            </p>
+        </div>
+      </li>
+      <li class="media mt-5">
+        <img style="width:20%" class="rounded-circle img-fluid"
+                src="~/images/team/jwarner.png" alt="Photo to come">
+        <div class="media-body pl-3">
+            <div>
+                <span class="font-weight-bold">Jude Warner</span>
+            <br />
+                <span class="font-italic">Project Manager</span>
+            </div>            
+            <p class="mt-3">
+                Jude Warner is a Project Manager with Collaborative Data 
+                Services (CDS) at Fred Hutch. She oversees and manages daily 
+                operations for the Interviewing and Project Management Core at 
+                CDS.
+            </p>
+        </div>
+      </li>
+      <li class="media mt-5">
+        <img style="width:20%" class="rounded-circle img-fluid"
+                src="~/images/team/ckumai.png" alt="Photo to come">
+        <div class="media-body pl-3">
+            <div>
+                <span class="font-weight-bold">Claudia Kumai</span>
+            <br />
+                <span class="font-italic">Physician Assistant</span>
+            </div>            
+            <p class="mt-3">
+                Ms. Kumai is a Research Clinic Manager and a Physician Assistant with over 20 years 
+                of experience working with study participants in cancer prevention studies.  
+            </p>
+        </div>
+      </li>
+    </ul>
+</div>
+
+<div class="d-flex flex-row justify-content-center py-5 blueColor">
+    The ACE Study is funded by the&nbsp;<a href="https://www.bcrf.org" class="blueColor" target="_blank">Breast Cancer Research Foundation.</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(window).on("load", function () {
+            $("body").css("background-color","white");
+        });
+    </script>    
+}
