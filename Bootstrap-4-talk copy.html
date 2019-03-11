@@ -44,6 +44,7 @@ class: center, middle
 # The Goal
 
 * <h3>Create a responsive website from artist’s design work</h3>
+.red-text[red text]
 
 ---
 # Bootstrap
@@ -66,7 +67,7 @@ class: center, middle
 --
 
 * Grid system classes
-    * ~~col-xs~~, col-sm, col-md, col-lg -> 
+    * col-xs, col-sm, col-md, col-lg -> 
 .emp-text[col, col-sm, col-md, col-lg, and col-xl]
 --
 
@@ -83,42 +84,88 @@ class: center, middle
 .emp-text[secondary]
 --
 
-* .emp-text[dropped] ~~form-group~~ and ~~form-horizontal~~
+* .emp-text[dropped] form-group and form-horizontal
 --
 
 * many more…
 
 ---
-## Step A
-1. Mkdir dirname
-2. Start terminal
-3. ```
-dotnet new mvc```
-4. Open VS Code
-5. ```
-dotnet run```
----
-## Step A (continued)
+.footnote[.red.bold[*]
+Important footnote]
 
-6. Open wwwroot\lib\boostrap\dist folder and delete contents
-6. Copy dist folder from downloaded bootstrap here
-8. Refresh browser to see how bad it looks
- * Note diferences between Bootstrap 3 and Bootstrap 4
-
+.footnote[
+.red.bold[
+*]Important footnote]
 ---
 
-9. Copy Bootstrap 4 starter template from 
-    https://getbootstrap.com/docs/4.3/getting-started/introduction/
-    and paste into Views\Shared\_layout.cshtml page
-10. Refresh browser
- * whoops - no @RenderBody() section
----
+# Javascript
+```javascript
+function add(a, b)
+  return a + b
+end
+```
 
-11. Add @RenderBody() just under <body> 
-12. Add @RenderSection("Scripts", required: false) just above </body>
-13. View in browser.
 ---
+# C Sharp
+```cs
+function add(a, b)
+  return a + b
+end
+```
+---
+# Html
+```
+<div class="container-fluid body-content ml-0 mr-0 pl-3 pr-3" style="margin-top:-30px;" id="containerMain">
+    <div class="text-center">
+    <img src="~/images/Home/AceLogo.png" class="img-fluid" alt="ACE Logo" style="max-width:20%; height: auto;" />
+    </div>
+    <hr style="border-color:black;margin-bottom:0;">
+    <nav class="navbar navbar-expand-lg navbar-light text-uppercase font-weight-bold">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+*   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+                <a class='nav-item nav-link mr-2' href='~/home/index'>HOME</a>
+                <a class='nav-item nav-link mr-2' href='~/home/about'>ABOUT</a>
+                <a class='nav-item nav-link mr-2' href='~/home/eligibility'>ELIGIBILITY</a>
+                <a class='nav-item nav-link mr-2' href='~/home/team'>MEET THE TEAM</a>
+                <a class='nav-item nav-link     ' href='~/home/contact'>CONTACT US</a>
+         </div>
+    </<div>
+    </nav>       
+    <hr style="border-color:black;margin-top:0;">  
+@RenderBody()
+</div>
+```
+---
+# CSS
+```
+body .bodyWhite {
+    background:white !important;
+}
 
+div .greyBox
+{
+    background-color: #dee6e9;
+    padding-left:50px;
+    padding-right:0;
+}
+
+div .whiteBox
+{
+    background-color:#fff;
+}
+div .greenBox
+{
+    background-color: #46d5c4;
+}
+
+div .blueBox
+{
+    background-color: #29b6b9;
+}
+```
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
     </script>
