@@ -1,3 +1,117 @@
 ﻿@{
     ViewBag.Title = "Team";
 }
+<div class="row pt-2 ml-2"> 
+    <div class="col-md-12 pl-3">
+    <img src="~/images/Team/MeetTheTeam_Script.png" 
+        class="img-fluid"  alt="Meet the Team"  style="max-width:30%;height:auto;"/>
+    </div>
+</div>
+
+<div class="col-md-8 ml-2 mt-4">
+    <ul class="list-unstyled">
+      <li class="media">
+        <img style="width:20%" class="rounded-circle img-fluid"
+                src="~/images/team/AMcTiernan.jpg" alt="Anne McTiernan photo">
+        <div class="media-body pl-3">
+            <div>
+                <span class="font-weight-bold">Dr. Anne McTiernan, MD PhD</span>
+            <br />
+                <span class="font-italic">Principal Investigator of the ACE study</span>
+            </div>            
+            <p class="mt-3">
+                Dr. McTiernan’s research focuses on identifying ways to prevent new or recurrent 
+                cancer with a particular focus on weight control, physical activity, and 
+                chemoprevention. She has led several NCI-funded
+                grants to test weight loss and exercise effects on biomarkers of breast cancer, 
+                colon cancer, and other cancers and diseases. She currently is funded by the 
+                Breast Cancer Research Foundation to study long-term effects of weight loss 
+                and exercise on breast cancer biomarkers.
+            </p>
+            <p class="mt-3">
+                Dr. McTiernan is an elected Fellow in the American College of Sports Medicine, 
+                the Obesity Society, and the American College of Epidemiology. She has served 
+                on national and international health advisory boards and working groups including 
+                the International Agency for Research on Cancer, the American Cancer Society, the 
+                U.S. Department of Health and Human Services 2008 and 2018 Physical Activity Guidelines 
+                Advisory Committees, the World Cancer Research Fund International, and the Komen 
+                for the Cure Scientific Advisory Council.
+            </p>
+        </div>
+      </li>
+      <li class="media mt-5">
+        <img style="width:20%" class="rounded-circle img-fluid"
+                src="~/images/team/cduggan.png" alt="Catherine Duggan photo">
+        <div class="media-body pl-3">
+            <div>
+                <span class="font-weight-bold">Dr. Catherine Duggan, PhD</span>
+            <br />
+                <span class="font-italic">Co-investigator of the ACE study</span>
+            </div>            
+            <p class="mt-3">
+                Dr. Duggan is a Co-Investigator and an Epidemiologist. 
+                She has extensive experience in the design and conduct of randomized controlled trials, 
+                and cancer prevention research.
+            </p>
+        </div>
+      </li>
+      <li class="media mt-5">
+        <img style="width:20%" class="rounded-circle img-fluid"
+                src="~/images/team/mvandoren.jpg" alt="Matthew VanDoren">
+        <div class="media-body pl-3">
+            <div>
+                <span class="font-weight-bold">Matthew VanDoren</span>
+            <br />
+                <span class="font-italic">Exercise Physiologist at the Prevention Center</span>
+            </div>            
+            <p class="mt-3">
+                Matthew VanDoren, Exercise Research Center (ERC) Manager, oversees and coordinates daily operations, research protocols, and administrative activities in support of the ERC.
+            </p>
+        </div>
+      </li>
+      <li class="media mt-5">
+        <img style="width:20%" class="rounded-circle img-fluid"
+                src="~/images/team/jwarner.png" alt="Photo to come">
+        <div class="media-body pl-3">
+            <div>
+                <span class="font-weight-bold">Jude Warner</span>
+            <br />
+                <span class="font-italic">Project Manager</span>
+            </div>            
+            <p class="mt-3">
+                Jude Warner is a Project Manager with Collaborative Data 
+                Services (CDS) at Fred Hutch. She oversees and manages daily 
+                operations for the Interviewing and Project Management Core at 
+                CDS.
+            </p>
+        </div>
+      </li>
+      <li class="media mt-5">
+        <img style="width:20%" class="rounded-circle img-fluid"
+                src="~/images/team/ckumai.png" alt="Photo to come">
+        <div class="media-body pl-3">
+            <div>
+                <span class="font-weight-bold">Claudia Kumai</span>
+            <br />
+                <span class="font-italic">Physician Assistant</span>
+            </div>            
+            <p class="mt-3">
+                Ms. Kumai is a Research Clinic Manager and a Physician Assistant with over 20 years 
+                of experience working with study participants in cancer prevention studies.  
+            </p>
+        </div>
+      </li>
+    </ul>
+</div>
+
+<div class="d-flex flex-column flex-sm-row justify-content-center py-5 blueColor">
+    The ACE Study is funded by the&nbsp;<a href="https://www.bcrf.org" class="blueColor" target="_blank">Breast Cancer Research Foundation.</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(window).on("load", function () {
+            $("body").css("background-color","white");
+        });
+    </script>    
+}

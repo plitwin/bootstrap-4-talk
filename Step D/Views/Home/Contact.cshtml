@@ -1,3 +1,47 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
+<div class="col-md-7 mb-5">
+    <div class="d-block d-sm-none mb-2">
+        <img style="width:65%;" class="img-fluid"
+            src="~/images/FredHutch-v-tag-4col-rgb.png" alt="Fred Hutch">
+    </div>  
+    <div class="media p-2"> 
+        <div class="d-none d-sm-block media-body">
+            <img style="width:65%;" class="img-fluid"
+                src="~/images/FredHutch-v-tag-4col-rgb.png" alt="Fred Hutch">
+        </div>  
+        <div class="media-body">
+                <div>
+                    <span class="font-weight-bold"><i class="fas fa-mail-bulk"></i> Address</span>
+                    <br />
+                    <span class="text-secondary">
+                        Fred Hutchinson Cancer Research Center<br />
+                        1100 Fairview Ave N<br />
+                        PO Box 19024<br />
+                        Seattle, WA 98109
+                    </span>
+                </div>
+                <div class="mt-3">
+                    <span class="font-weight-bold"><i class="fas fa-clinic-medical"></i> Prevention Center</span>
+                    <br /><a href="~/images/pc_directions.pdf" target="_blank">Driving/transit directions</a>
+                </div>            
+                <div class="mt-3">
+                    <span class="font-weight-bold"><i class="fas fa-envelope"></i> Email</span>
+                    <br /><a href="mailto:acestudy@fredhutch.org">acestudy@fredhutch.org</a>
+                </div>
+                <div class="mt-3">
+                    <span class="font-weight-bold"><i class="fas fa-phone-volume"></i> Telephone</span>
+                    <br /><span class="text-secondary">888-508-0395</span>
+                </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(window).on("load", function () {
+            $("body").css("background-color","white");
+        });
+    </script>    
+}
