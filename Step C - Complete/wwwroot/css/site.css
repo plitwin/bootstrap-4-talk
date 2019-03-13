@@ -68,3 +68,8 @@ div .blueBox
 {
     color: #54bceb
 }
+
+.large-text 
+{
+    font-size: larger;
+}
