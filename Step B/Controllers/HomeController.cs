@@ -10,34 +10,48 @@ namespace test1.Controllers
 {
     public class HomeController : Controller
     {
+        private string surveyUrl = "http://theacestudy.org/home/surveyplaceholder";
+
         public IActionResult Index()
         {
+            ViewBag.SurveyUrl = surveyUrl;
             return View();
         }
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewBag.SurveyUrl = surveyUrl;
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
-
+            ViewBag.SurveyUrl = surveyUrl;
             return View();
         }
+        
+        public IActionResult Eligibility()
+        {
+            ViewBag.SurveyUrl = surveyUrl;            
+            return View();
+        }
+        
+        public IActionResult Team()
+        {
+            ViewBag.SurveyUrl = surveyUrl;            
+            return View();
+        }
+
+        public IActionResult SurveyPlaceholder()
+        {
+            ViewBag.SurveyUrl = surveyUrl;            
+            return View();
+        } 
 
         public IActionResult Privacy()
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
     }
 }
